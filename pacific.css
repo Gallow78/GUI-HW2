@@ -1,0 +1,121 @@
+/* File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Wesley Gallo,  UMass Lowell Computer Science, Wesley_Gallo@student.uml.edu
+
+First Web Page
+Copyright (c) 2022 by Gallo. All rights reserved. It may be freely copied or 
+excerpted for educational purposes with credit to the author.
+updated by WG on June 7, 2022, at 3:30 PM */
+
+  /* Text */
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+
+  /* The ptrbackground.jpb is used as a gradient background and color 00569f is used as a background below the gradient
+  	 The width is set at 80% and min-width 600px*/
+body {
+	background: url(ptrbackground.jpg)left repeat-x;
+	background-color:#00569f;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 600px;
+}
+
+/* The navigation menu is adjusted and floated to the left*/
+nav ul {
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	list-style-type: none;
+	margin-left: -10px;	
+}
+
+#wrapper {
+	background-color: #77cce6;
+}
+
+nav a {
+	color: rgb(1, 1, 63);
+	text-decoration: none;
+}
+
+/*I adjusted the color of the visited navigation to change the color of "Home" */
+nav a:visited {
+	color: #000033;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* Header was used to have sunset.jpg set to not repeat and to the right */
+header {
+	background-image: url("sunset.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #000033;
+}
+
+/* content added formating for margins and padding, and also list position to inside making the bullets inside the list
+marker.gif is used in bullets for content and not on the nav */
+#content {
+	font-size: 90%;
+	background-color: white;
+	padding: 1px 50px 75px 100px;
+	list-style-position: inside;
+	padding-left: 30px;
+	margin-left: 180px;
+	list-style-image: url('marker.gif');
+}
+
+/* Resort class was used to edit the color and boldness of "Pacific Trails Resort" */
+.resort {
+	font-weight: bold;
+	color: rgba(0, 84, 180, 0.753);
+}
+
+img {
+	float: left;
+	margin-right: 40px;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;	
+}
+
+h2 {
+	color: #3399CC;
+	
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+  /* CHanged the font size and style to match the assigned document and changed the margin to match with the content above */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 80%;
+	background-color: white;
+	padding: 25px;
+	margin-left: 180px
+	
+
+}
