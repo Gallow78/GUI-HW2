@@ -7,8 +7,6 @@ Copyright (c) 2022 by Gallo. All rights reserved. It may be freely copied or
 excerpted for educational purposes with credit to the author.
 updated by WG on June 7, 2022, at 3:30 PM */
 
-  /* Text */
-
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
